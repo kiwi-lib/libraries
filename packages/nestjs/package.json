@@ -1,6 +1,6 @@
 {
-	"name": "@kiwi-lib/core",
-	"version": "0.0.2",
+	"name": "@kiwi-lib/nestjs",
+	"version": "0.2.1",
 	"main": "src/index.ts",
 	"types": "src/index.ts",
 	"publishConfig": {
@@ -11,16 +11,29 @@
 	"repository": "git@github.com:kiwi-lib/libraries.git",
 	"author": "Whitekiwi <jh145478@gmail.com>",
 	"scripts": {
-		"lint": "eslint \"{{src}/**/*.ts,**.js}\" --fix",
+		"lint": "eslint src/**/*.ts --fix",
 		"test": "jest",
 		"build": "rm -rf dist esm && tsc -p tsconfig.json && tsc -p tsconfig.esm.json"
 	},
+	"dependencies": {
+		"@kiwi-lib/utils": "^0",
+		"@nestjs/common": "^8",
+		"@nestjs/config": "^1",
+		"@nestjs/core": "^8",
+		"reflect-metadata": "^0.1.13",
+		"rxjs": "^7.4.0"
+	},
 	"devDependencies": {
+		"@nestjs/platform-express": "^8.3.1",
+		"@nestjs/testing": "^8.3.1",
 		"@types/jest": "^27",
 		"@types/node": "^16",
+		"@types/supertest": "^2.0.11",
 		"jest": "^27",
+		"supertest": "^6.2.2",
 		"ts-jest": "^27",
 		"ts-node": "^10",
+		"tsconfig-paths": "^3.12.0",
 		"typescript": "^4.6.4"
 	},
 	"files": [

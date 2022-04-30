@@ -5,7 +5,8 @@
 	"types": "src/index.ts",
 	"publishConfig": {
 		"main": "lib/index.js",
-		"types": "lib/index.d.ts"
+		"types": "lib/index.d.ts",
+		"module": "esm/index.js"
 	},
 	"repository": "git@github.com:kiwi-lib/libraries.git",
 	"author": "Whitekiwi <jh145478@gmail.com>",
