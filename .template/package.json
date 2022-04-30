@@ -1,0 +1,39 @@
+{
+	"name": "@kiwi-lib/{{template}}",
+	"version": "0.0.1",
+	"main": "src/index.ts",
+	"types": "src/index.ts",
+	"publishConfig": {
+		"main": "lib/index.js",
+		"types": "lib/index.d.ts"
+	},
+	"repository": "git@github.com:kiwi-lib/libraries.git",
+	"author": "Whitekiwi <jh145478@gmail.com>",
+	"scripts": {
+		"lint": "eslint \"{{src}/**/*.ts,**.js}\" --fix",
+		"test": "jest",
+		"build": "rm -rf dist esm && tsc -p tsconfig.json && tsc -p tsconfig.esm.json"
+	},
+	"devDependencies": {
+		"@types/jest": "^27",
+		"@types/node": "^16",
+		"jest": "^27",
+		"ts-jest": "^27",
+		"ts-node": "^10",
+		"typescript": "^4.6.4"
+	},
+	"files": [
+		"lib",
+		"esm"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/kiwi-lib/libraries",
+	"bugs": {
+		"url": "https://github.com/kiwi-lib/libraries/issues",
+		"email": "jh145478@gmail.com"
+	},
+	"keywords": [
+		"kiwi-lib"
+	],
+	"prettier": "@kiwi-lib/eslint-config/prettier.config"
+}

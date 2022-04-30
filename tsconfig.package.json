@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "es2021",
+		"sourceMap": true,
+		"inlineSources": true,
+		"sourceRoot": "/",
+		"outDir": "./lib",
+		"baseUrl": "./",
+		"incremental": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"strict": true,
+		"noImplicitAny": true,
+		"noUnusedLocals": true
+	}
+}

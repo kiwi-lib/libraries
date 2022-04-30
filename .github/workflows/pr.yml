@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ master ]
+
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/common
+        with:
+          npm_token: ${{ env.NPM_TOKEN }}
+      # steps
+      - name: Test
+        run: pnpm run test --filter="...[refs/remotes/origin/master]"
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/common
+        with:
+          npm_token: ${{ env.NPM_TOKEN }}
+      # steps
+      - name: Build
+        run: pnpm run build --filter="...[refs/remotes/origin/master]"

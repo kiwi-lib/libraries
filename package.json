@@ -1,0 +1,17 @@
+{
+	"name": "@kiwi-lib/libraries",
+	"version": "1.0.0",
+	"repository": "git@github.com:kiwi-lib/libraries.git",
+	"author": "Whitekiwi <jh145478@gmail.com>",
+	"scripts": {
+		"new": "cp -r .template packages/new"
+	},
+	"devDependencies": {
+		"@kiwi-lib/eslint-config": "^1",
+		"@types/node": "^16",
+		"ts-node": "^10",
+		"typescript": "^4.6.4"
+	},
+	"license": "MIT",
+	"prettier": "@kiwi-lib/eslint-config/prettier.config"
+}
