@@ -1,6 +1,6 @@
 {
 	"name": "@kiwi-lib/core",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"main": "src/index.ts",
 	"types": "src/index.ts",
 	"publishConfig": {
@@ -25,7 +25,8 @@
 	},
 	"files": [
 		"lib",
-		"esm"
+		"esm",
+		"src"
 	],
 	"license": "MIT",
 	"homepage": "https://github.com/kiwi-lib/libraries",

@@ -1,6 +1,6 @@
 {
 	"name": "@kiwi-lib/nestjs",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"main": "src/index.ts",
 	"types": "src/index.ts",
 	"publishConfig": {
@@ -38,7 +38,8 @@
 	},
 	"files": [
 		"lib",
-		"esm"
+		"esm",
+		"src"
 	],
 	"license": "MIT",
 	"homepage": "https://github.com/kiwi-lib/libraries",

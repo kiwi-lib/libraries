@@ -25,7 +25,8 @@
 	},
 	"files": [
 		"lib",
-		"esm"
+		"esm",
+		"src"
 	],
 	"license": "MIT",
 	"homepage": "https://github.com/kiwi-lib/libraries",
