@@ -1,6 +1,6 @@
 {
 	"name": "multi-value-map",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "src/index.ts",
 	"types": "src/index.ts",
 	"module": "src/index.ts",
@@ -18,7 +18,6 @@
 	},
 	"devDependencies": {
 		"@types/jest": "^27",
-		"@types/node": "^16",
 		"jest": "^27",
 		"ts-jest": "^27",
 		"typescript": "^4.6.4"
@@ -35,6 +34,8 @@
 		"email": "jh145478@gmail.com"
 	},
 	"keywords": [
+		"multi-value-map",
+		"map",
 		"kiwi-lib"
 	],
 	"prettier": "@kiwi-lib/eslint-config/prettier.config"

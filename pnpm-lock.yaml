@@ -46,13 +46,11 @@ importers:
   packages/multi-value-map:
     specifiers:
       '@types/jest': ^27
-      '@types/node': ^16
       jest: ^27
       ts-jest: ^27
       typescript: ^4.6.4
     devDependencies:
       '@types/jest': 27.4.1
-      '@types/node': 16.11.32
       jest: 27.5.1
       ts-jest: 27.1.4_53ggqi2i4rbcfjtktmjua6zili
       typescript: 4.6.4
@@ -4070,7 +4068,7 @@ packages:
       '@types/jest': 27.4.1
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
-      jest: 27.5.1_ts-node@10.7.0
+      jest: 27.5.1
       jest-util: 27.5.1
       json5: 2.2.1
       lodash.memoize: 4.1.2
