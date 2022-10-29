@@ -13,7 +13,7 @@
 	"scripts": {
 		"lint": "eslint \"{{src}/**/*.ts,**.js}\" --fix",
 		"test": "jest",
-		"build": "rm -rf dist esm && tsc -p tsconfig.json && tsc -p tsconfig.esm.json"
+		"build": "rm -rf dist esm && tsc -p tsconfig.build.json && tsc -p tsconfig.esm.json"
 	},
 	"devDependencies": {
 		"@types/jest": "^27",

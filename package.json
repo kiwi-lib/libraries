@@ -7,8 +7,7 @@
 		"new": "cp -r .template packages/new"
 	},
 	"devDependencies": {
-		"@kiwi-lib/eslint-config": "^1",
-		"@types/node": "^16",
+		"@kiwi-lib/eslint-config": "^2",
 		"ts-node": "^10",
 		"typescript": "^4.6.4"
 	},

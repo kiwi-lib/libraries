@@ -1,6 +1,6 @@
 {
 	"name": "@kiwi-lib/eslint-config",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"repository": "git@github.com:kiwi-lib/libraries.git",
 	"author": "Whitekiwi <jh145478@gmail.com>",
 	"license": "MIT",
@@ -13,8 +13,10 @@
 		"@typescript-eslint/eslint-plugin": "^5.6.0",
 		"@typescript-eslint/parser": "^5.6.0",
 		"eslint": "^8.4.1",
-		"eslint-plugin-simple-import-sort": "^7.0.0",
 		"eslint-plugin-unused-imports": "^2.0.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.4"
 	},
 	"keywords": [
 		"kiwi-lib"
