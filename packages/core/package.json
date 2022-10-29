@@ -4,8 +4,8 @@
 	"main": "src/index.ts",
 	"types": "src/index.ts",
 	"publishConfig": {
-		"main": "lib/index.js",
-		"types": "lib/index.d.ts",
+		"main": "dist/index.js",
+		"types": "dist/index.d.ts",
 		"module": "esm/index.js"
 	},
 	"repository": "git@github.com:kiwi-lib/libraries.git",
@@ -24,7 +24,7 @@
 		"typescript": "^4.6.4"
 	},
 	"files": [
-		"lib",
+		"dist",
 		"esm",
 		"src"
 	],
