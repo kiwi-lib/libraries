@@ -20,6 +20,10 @@ export class MultiValueMap<K extends string, V = any>
 		return this;
 	}
 
+	toObject(): Record<K, V[]> {
+		return Object.fromEntries(this.entries()) as Record<K, V[]>;
+	}
+
 	keys(): K[] {
 		return [...this.map.keys()];
 	}

@@ -24,6 +24,28 @@ Array [
 `);
 	});
 
+	it('toObject', () => {
+		const sut = new MultiValueMap<'foo' | 'bar', string>();
+		sut.push('foo', '1');
+		sut.push('foo', '2');
+		sut.push('foo', '3');
+		sut.push('bar', '1');
+		sut.push('bar', '2');
+		expect(sut.toObject()).toMatchInlineSnapshot(`
+Object {
+  "bar": Array [
+    "1",
+    "2",
+  ],
+  "foo": Array [
+    "1",
+    "2",
+    "3",
+  ],
+}
+`);
+	});
+
 	it('keys, values, entries', () => {
 		const sut = new MultiValueMap();
 		sut.push('foo', '1');
