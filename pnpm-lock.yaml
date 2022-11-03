@@ -94,6 +94,22 @@ importers:
       tsconfig-paths: 3.14.1
       typescript: 4.6.4
 
+  packages/set-map:
+    specifiers:
+      '@types/jest': ^27
+      '@types/node': ^16
+      jest: ^27
+      ts-jest: ^27
+      ts-node: ^10
+      typescript: ^4.6.4
+    devDependencies:
+      '@types/jest': 27.4.1
+      '@types/node': 16.11.32
+      jest: 27.5.1_ts-node@10.7.0
+      ts-jest: 27.1.4_53ggqi2i4rbcfjtktmjua6zili
+      ts-node: 10.7.0_au3bf4ahy5qxm3xc5mdsnlgvre
+      typescript: 4.6.4
+
 packages:
 
   /@ampproject/remapping/2.2.0:
@@ -4068,7 +4084,7 @@ packages:
       '@types/jest': 27.4.1
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
-      jest: 27.5.1
+      jest: 27.5.1_ts-node@10.7.0
       jest-util: 27.5.1
       json5: 2.2.1
       lodash.memoize: 4.1.2
