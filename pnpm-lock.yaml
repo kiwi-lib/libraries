@@ -106,6 +106,20 @@ importers:
       tsconfig-paths: 3.14.1
       typescript: 4.6.4
 
+  packages/senseful:
+    specifiers:
+      '@types/jest': ^27
+      '@types/node': ^16
+      jest: ^27
+      ts-jest: ^27
+      typescript: ^4.6.4
+    devDependencies:
+      '@types/jest': 27.4.1
+      '@types/node': 16.11.32
+      jest: 27.5.1
+      ts-jest: 27.1.4_53ggqi2i4rbcfjtktmjua6zili
+      typescript: 4.6.4
+
 packages:
 
   /@ampproject/remapping/2.2.0:
