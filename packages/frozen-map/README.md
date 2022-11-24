@@ -15,8 +15,8 @@ import { FrozenMap } from 'frozen-map';
 
 const map = new FrozenMap();
 
-map.push('A', '1');
-map.push('A', '2');
-map.push('A', '3');
+map.set('A', '1');
+map.set('A', '2');
+map.set('A', '3');
 map.get('A'); // 1
 ```
