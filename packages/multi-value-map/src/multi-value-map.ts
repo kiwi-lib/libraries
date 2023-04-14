@@ -1,4 +1,4 @@
-export class MultiValueMap<K extends string, V = any>
+export class MultiValueMap<K extends string | symbol, V = any>
 	implements
 		Omit<
 			Map<K, V[]>,
